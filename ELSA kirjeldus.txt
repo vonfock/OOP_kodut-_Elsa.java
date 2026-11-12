@@ -1,0 +1,29 @@
+ELSA kirjeldus
+
+Autorid - Taavi Kruut, Mari-Anne Suurpere
+
+Kirjeldus - ELSA on tekstipõhine isikliku rahaasjade jälgija. Kasutaja sisestab tulud ja kulud (kuupäev, summa, kategooria, kaupmees, kirjeldus). Kui kategooria jääb valimata, määrab programm selle kaupmehe järgi automaatselt (nt Rimi → Söök ja jook). Puuduva kategooria või kaupmehe saab ise lisada. Programm näitab kirjeid, saldot ning kulude ja tulude kokkuvõtet kategooriate kaupa (summa, osakaal, tärnitulbad) ja filtreerib tüübi ning kuupäevavahemiku järgi. Testimiseks saab genereerida juhuslikke kirjeid. Vigane sisend (tähed, vale kuupäev, tühi nimi) küsitakse uuesti. Andmed on ainult mälus ja ei salvestu kuhugi.
+
+Kasutusjuhis - lisage kirjeid, genereerige juhuslike kirjeid, lisage kulusid (vahemikus 1900-2100 AAAA, 1-12 KK ja 1-31 PP). Summad peavad üldjuhul olema double tüüpi. Juhend on nähtav ka programmi käivitamisel ning veateated kuvatakse kasutajale niipea kui need tekivad (või need on kontrollitud koodis).
+Proovida lisada ka uut kategooriat ja kaupmeest, keda juba nimekirjas ei eksisteeri.
+
+Klassi eesmärgid
+ELSA - Peameetod, kus kutsutakse program välja ning kuvatakse kasutajale tutvustus ja menüü.
+Sees on 11 meetodit, mis vastavad menüü valikutele + peameetod ja mud vajalikud.
+SISEND - Klass küsib ja kontrollib sisendit.
+Realiseeritud on minimaalsed kontrollid, et programm ei jookseks kokku ja küsiks kasutajalt korrektses formaadis sisendi.
+KATEGORISEERIJA - määrab kulude kategooriad kaupmeeste kaupa ja filtreerib neid ning "hoiab" neid.
+KIRJE - Täidab kirjed kui kasutaja need sisestab
+KIRJEPIDAJA - Ajutine kirjepidaja, mis salvestab kirjed mällu ja oskab neid printida ja välja kutsuda ning genereerida juhuslike kirjeid.
+
+Protsessi etapid - Mari-Anne poolt esialgne idee ja teostus, Taavi poolt idee edasiarendus ja githubi seadistamine.
+Klassid Sisend ja Elsa ning optimeerimine ja kontrollid - Taavi
+Kategoriseerija, Kirjepidaja, Kirje - Mari-Anne
+
+Liikmete panus - Taavi 8h, Mari-Anne 10h
+
+Mured - Ajakulu on müstiliselt suur ning peab palju kasutama tehisintellekti abi, et asjad tehtud saaks. Eks eesmärk on võetud ka ulmeline, et kõik asjad tehtud jõuaks, aga siiski. Mitte tehnilistele inimestele ja programmeerimistaustata inimesele on aine läbimine väga keeruline.
+
+Enesehinnang - Keskmine
+
+Testimine - Testimiseks proovige erinevaid võimalusi miinusmärkidega või tekstiväljale kirjutada numbreid või vastupidi. Kõik ei pruugi veel töötada aga rühmatöö v2 osas keskendume selle parendamisele ja andmete salvestamisele faili või mujale.
